@@ -43,7 +43,7 @@ ul {
 }
 
 .header {
-  background: url("./imgs/desktop/image-header.jpg") center/cover;
+  background: url("../imgs/desktop/image-header.jpg") center/cover;
   color: #FFF;
   height: 100vh;
   position: relative;
