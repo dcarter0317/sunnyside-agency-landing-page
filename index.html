@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;400;600;700;900&family=Fraunces:wght@100;200;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="site__nav container">
+      <div class="site__logo">
+        <img src="/imgs/logo.svg" alt="site logo">
+      </div>
+      <div id="hamburgerMenu" class="hamburger-menu">
+        <img src="/imgs/icon-hamburger.svg" alt="icon-hamburger.svg">
+      </div>
+        <ul id="siteNavList" class="site__nav__list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li class="contact"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+      <h1 class="hero__title">We are creatives</h1>
+      <img id="heroIcon" class="hero__icon" src="/imgs/icon-arrow-down.svg" alt="icon-arrow-down.svg">
+    </div>
+   </header>
+
+  <section class="transform">
+   <div class="content">
+      <h3 class="section__title">Transform your brand</h3>
+      <p class="section__body">
+        We are a full-service creative agency specializing in <br> helping brands grow fast. 
+        Engage your clients through <br> compelling visuals that do most of the marketing for you.
+      </p>
+      <a href="#" class="section__cta">Learn more</a>
+   </div>
+   <div class="media">
+     <img src="/imgs/desktop/image-transform.jpg" alt="image-transform.jpg">
+   </div>
+  </section>
+
+ <section class="stand-out">
+   <div class="media">
+     <img src="/imgs/desktop/image-stand-out.jpg" alt="image-stand-out.jpg">
+   </div>
+   <div class="content">
+    <h3 class="section__title">Stand out to the right audience</h3>
+    <p class="section__body">Using a collaborative formula of designers, researchers, <br> photographers, videographers, and copywriters, we’ll <br> build and extend your brand in digital places. </p>
+    <a href="#" class="section__cta">Learn more</a>
+   </div>
+ </section>
+
+ <section class="graphic-photo">
+    <div class="graphic">
+      <div class="content">
+        <h3 class="section__title">Graphic design</h3>
+        <p class="section__body">Great design makes you memorable. We deliver <br> artwork that underscores your brand message <br> and captures potential clients’ attention.</p>
+      </div>
+    </div>
+  
+    <div class="photo">
+      <div class="content">
+        <h3 class="section__title">Photography</h3>
+        <p class="section__body">Increase your credibility by getting the most <br> stunning, high-quality photos that improve your <br> business  image.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h3 class="section__title">Client Testimonials</h3>
+
+   <div class="clients">
+     <div class="client">
+        <img class="client__img" srcset="/imgs/image-emily.jpg," alt="picture of client Emily R">
+        <p class="client__quote">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        <p class="client__name">Emily R.</p>
+        <p class="client__job_title">Marketing Director</p>
+     </div>
+     
+     <div class="client">
+        <img class="client__img" srcset="/imgs/image-thomas.jpg," alt="picture of client Thomas S">
+        <p class="client__quote">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+        <p class="client__name">Thomas S.</p>
+        <p class="client__job_title">Chief Operating Officer</p> 
+     </div>
+      <div class="client">
+        <img class="client__img" srcset="/imgs/image-jennie.jpg," alt="picture of client Jannie F ">
+        <p class="client__quote">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+        <p class="client__name">JennieF.</p>
+        <p class="client__job_title">Business Owner</p>
+      </div>
+   </div>
+  </section>
+
+  <section class="image-gallery">
+     <ul class="image-gallery__images">
+       <li><img src="/imgs/desktop/image-gallery-milkbottles.jpg" alt="image-gallery-milkbottles.jpg"></li>
+       <li><img src="/imgs/desktop/image-gallery-orange.jpg" alt="image-gallery-orange.jpg"></li>
+       <li><img src="/imgs/desktop/image-gallery-cone.jpg" alt="image-gallery-cone.jpg"></li>
+       <li><img src="/imgs/desktop/image-gallery-sugarcubes.jpg" alt="image-gallery-sugarcubes.jpg"></li>
+     </ul>
+  </section>
+
+  <footer class="footer">
+   <div class="footer__wrap">
+      <div class="footer__logo"><img src="imgs/footer-logo.svg" alt="footer-logo.svg"></div>
+      <nav class="footer__nav">
+        <ul class="footer__nav__list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+      </nav>
+      <div class="social-media">
+         <ul class="social-media__icons">
+           <li><img src="imgs/icon-facebook.svg" alt="icon-facebook"></li>
+           <li><img src="imgs/icon-instagram.svg" alt="icon-instagram"></li>           
+           <li><img src="imgs/icon-pinterest.svg" alt="icon-pinterest"></li>
+         </ul>
+      </div>
+    </div>
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Dave Carter</a>.
+  </div>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>

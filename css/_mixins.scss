@@ -1,0 +1,44 @@
+@mixin flexCenter(){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin gridCenter(){
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin marginAuto($width, $margin){
+   width: $width;
+   margin: $margin;
+}
+
+@mixin breakpoint($device) {
+  @if $device == desktop {
+    @media (max-width: 70em) {
+       @content; 
+    }
+ }
+  @else if $device == laptop {
+    @media (max-width: 64em) { 
+      @content; 
+    }
+ }
+   @else if $device == tablet {
+    @media (max-width: 50em) { 
+      @content; 
+    }
+ }
+//   @else if $device == phablet {
+//     @media (min-width: 37.5em)  { 
+//       @content; 
+//     }
+//  }
+ @else if $device == phone {
+    @media (max-width: 37.5em)  { 
+      @content; 
+    }
+ }
+}

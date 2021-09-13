@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}"
+      ],
+      "name": "Launch Extension",
+      "outFiles": [
+        "${workspaceFolder}/out/**/*.js"
+      ],
+      "preLaunchTask": "npm",
+      "request": "launch",
+      "type": "pwa-extensionHost"
+    },
+    {
+      "name": "Launch Chrome",
+      "request": "launch",
+      "type": "pwa-chrome",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Attach to Chrome",
+      "port": 9222,
+      "request": "attach",
+      "type": "pwa-chrome",
+      "webRoot": "${workspaceFolder}"
+    },
+  {
+    "type": "vscode-edge-devtools.debug",
+    "request": "launch",
+    "name": "Launch Microsoft Edge and open the Edge DevTools",
+    "url": "http://localhost:8080",
+    "webRoot": "${workspaceFolder}"
+  }
+  ]
+}
