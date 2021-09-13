@@ -428,11 +428,11 @@ ul {
 }
 
 .graphic-photo .graphic {
-  background: url("./imgs/desktop/image-graphic-design.jpg") center/cover;
+  background: url("../imgs/desktop/image-graphic-design.jpg") center/cover;
 }
 
 .graphic-photo .photo {
-  background: url("./imgs/desktop/image-photography.jpg") center/cover;
+  background: url("../imgs/desktop/image-photography.jpg") center/cover;
 }
 
 @media (max-width: 50em) {

@@ -376,11 +376,11 @@ ul {
   }
 
   .graphic {
-    background: url('./imgs/desktop/image-graphic-design.jpg') center/cover;
+    background: url('../imgs/desktop/image-graphic-design.jpg') center/cover;
  }
 
   .photo {
-    background: url('./imgs/desktop/image-photography.jpg') center/cover;
+    background: url('../imgs/desktop/image-photography.jpg') center/cover;
   }
 }
 @include breakpoint(tablet) {
