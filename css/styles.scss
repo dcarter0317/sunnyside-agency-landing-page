@@ -20,6 +20,7 @@ body {
   font-weight: $font-weight-semi-bold;
   background: #fff;
   color: $clr-text-primary;
+ 
 }
 
 a {
@@ -38,7 +39,7 @@ ul {
 }
 
 @include breakpoint(tablet){
-  .container {
+ .container {
     width: 85%;
   }
 }
@@ -186,7 +187,6 @@ ul {
   &__title {
     font-family: $font-family-fraunces;
     font-size: 5rem;
-    font-weight: $font-weight-light;
     letter-spacing: 5px;
     text-transform: uppercase;
   }
@@ -239,13 +239,11 @@ ul {
   margin: auto;
 
   .content {
-    width: 44.5em;
     margin: auto;
   }
 
   .section__title {
     font-family: $font-family-fraunces;
-    font-weight: $font-weight-light;
     font-size: 2.2em;
     color: $clr-text-quinary;
     margin-bottom: 60px;
@@ -316,6 +314,7 @@ ul {
     }
 
     .section__title {
+      font-size: 2.8rem;
       padding-top: 10rem;
     }
     .section__cta {
@@ -361,7 +360,6 @@ ul {
 
       .section__title {
         font-family: $font-family-fraunces;
-        font-weight: $font-weight-light;
         text-transform: capitalize;
         font-size: 2.8rem;
         margin-top: 40rem;
@@ -397,7 +395,7 @@ ul {
   .section__title {
     font-size: 2.3rem;
     font-family: $font-family-fraunces;
-    font-weight: $font-weight-semi-bold;
+    font-weight: $font-weight-bold;
     color: $clr-text-secondary;
     text-transform: uppercase;
     margin-bottom: 10rem;
@@ -416,9 +414,7 @@ ul {
 
     .section__title {
       font-size: 1.8rem;
-      letter-spacing: 5px;
-      font-weight: $font-weight-light;
-      
+      letter-spacing: 5px;    
     }
   }
 }
@@ -442,6 +438,11 @@ ul {
      margin-bottom: 3em;
      display: block;
      line-height: 1.5;
+    }
+
+    &__name {
+      font-family: $font-family-fraunces;
+      font-weight: $font-weight-bold;
     }
      
     &__job_title{
@@ -501,10 +502,12 @@ ul {
     font-size: 1.8rem;
     margin: 4rem 0;
     transition: $transition-3;
-    
+     
+     a,
      a:visited,
      a:focus {
       color: $clr-text-tertiary;
+      font-weight: 600;
      }
 
      a:hover {
